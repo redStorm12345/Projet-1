@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" >
+    <title>Monaco Xavier Guy David Aime</title>
+    <link href="style/style.css" rel="stylesheet" >
+    <link href="style/index.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="images/MONACO dev logo simple.png" alt="Logo Robbie Lens" width="63px" height="55px">
+            <div>
+                <a href="#a-propos">À propos</a>
+                <a href="#ma-passion">Mes passions</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="a-propos-introduction">
+            <div>
+                <h1>Monaco Xavier Guy David Aime</h1>
+                <p>
+                    Étudiant en Master 1 de Génie Informatique à Pigier Côte d'Ivoire, je suis passionné par le développement web.
+                </p>
+                <a id="contact-btn" href="#contact" class="cta">Contactez-moi</a>
+            </div>
+            <img src="images/WhatsApp Image 2024-06-26 à 10.07.59_de8a4ccb.jpg" alt="Portrait avec effet de la photographe Robbie Lens" width="425px" height="419px" >y
+        </section>>
+        <section id="a-propos">
+            <div>
+                <h1>À propos</h1>
+                <h2>Parcours</h2>
+                <ul>
+                    <li>Master 1 (cours du soir) de Génie Informatique à Pigier Côte d'Ivoire <br>En cours</li>
+                    <li>Licence 3 en Science Informatique à Etic University <br>2021-2024</li> 
+                    <li>Baccalauréat D au lycee municipal d`adjame <br>2021</li>
+                </ul>
+                <h2>Compétences</h2>
+                <ul>
+                    <li>Langages de programmation web</li>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <li>Analyse de données <br>Débutant</li>
+                    <li>Base de données <br>Débutant</li>
+                </ul>
+                <h2>Expériences</h2>
+                <ul>
+                    <li>Aucune</li>
+                </ul>
+            </div>
+        </section>
+        <section id="ma-passion">
+            <h1>Ma passion</h1>
+            <div class="contenu">
+                <p>
+                    Étudiant en Master 1 de Génie Informatique à Pigier Côte d'Ivoire, j'ai découvert ma passion pour le 
+                    développement web récemment. Durant mon parcours universitaire, je n'étais pas encore certain de la voie 
+                    que je souhaitais suivre. C'est au fil du temps et grâce à diverses expériences que j'ai réalisé mon intérêt 
+                    profond pour la création de solutions web innovantes et efficaces. Aujourd'hui, je suis déterminé à 
+                    approfondir mes compétences dans ce domaine et à contribuer de manière significative à l'évolution du web.
+                </p>
+        </section>
+        <div class="popup-overlay" id="popup">
+            <div class="popup-content">
+                <section id="contact" class="section-contact">
+                    <h2>Contactez-moi</h2>
+                    <form method="get" action="#">
+                        <div class="form-nom-email">
+                            <div class="form-column">
+                                <label for="nom">Nom</label>
+                                <input type="text" name="nom" id="nom" required>
+                            </div>
+                            <div class="form-column">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="10" required></textarea>
+                        <input type="submit" value="ENVOYER" class="cta">
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="images/MONACO dev logo simple.png" alt="Logo Robbie Lens" width="63px" height="55px">
+        <div>
+            <a target="_blank" href="https://github.com/redStorm12345" class="lien-icone">
+                <img src="images/github-logo-36.png" alt="Logo github" >
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/david-monaco-340002282/" class="lien-icone">
+                <img src="images/linkedin-logo-36.png" alt="Logo linkedin" >
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/popup.js" defer></script>
+</body>
+
+</html>
